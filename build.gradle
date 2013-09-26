@@ -39,7 +39,7 @@ apply plugin: 'idea'
 apply plugin: 'uploadAuth'
 
 group = 'org.jboss.jdocbook'
-version = '1.2.1-SNAPSHOT'
+version = '1.2.2.2'
 
 targetCompatibility = "1.6"
 sourceCompatibility = "1.6"
@@ -164,5 +164,5 @@ uploadArchives.dependsOn sourcesJar
 uploadArchives.dependsOn install
 
 task wrapper(type: Wrapper) {
-    gradleVersion = '1.1'
+    gradleVersion = '1.8'
 }

@@ -6,7 +6,7 @@ import java.net.MalformedURLException;
 import org.gradle.api.Project;
 import org.gradle.api.logging.Logger;
 import org.gradle.api.logging.Logging;
-import org.gradle.util.MutableURLClassLoader;
+import org.gradle.internal.classloader.MutableURLClassLoader;
 import org.jboss.gradle.plugins.jdocbook.JDocBookPlugin;
 
 /**
